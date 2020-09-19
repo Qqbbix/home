@@ -1,0 +1,23 @@
+.gradient-text {
+  background: linear-gradient(280deg, $g-color-1 12.08%, $g-color-2 53.53%, $g-color-3 95.62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-underline {
+
+  background-image: linear-gradient(280deg, $g-color-1 12.08%, $g-color-2 53.53%, $g-color-3 95.62%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+}
+
+.gradient-header {
+  // background-image:
+  //   /* gradient can be an image */
+  //   linear-gradient(280deg, $g-color-1 12.08%, $g-color-2 53.53%, $g-color-3 95.62%) left bottom #fff no-repeat;
+  background:
+    /* gradient can be an image */
+    linear-gradient(to left, $g-color-1 12%, $g-color-2 47%, $g-color-3 100%) left bottom #fff no-repeat;
+  background-size: 100% 5px;
+}
