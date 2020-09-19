@@ -3,7 +3,6 @@ export default {
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
-
   // router: {
   //   base: '/sub/'
   // },
@@ -74,6 +73,7 @@ export default {
     // BaseURL: 'https://link-to-API'
     baseURL: process.env.API_URL
   },
+ 
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/

@@ -1,0 +1,46 @@
+<template>
+<div class="container">
+    <div class="heading-block border-bottom-0 my-4 center">
+        <h3>ดาวน์โหลดเอกสาร</h3>
+        <span></span>
+    </div>
+    <div>
+        <b-table striped hover :items="items" :fields="fields">
+            <template v-slot:cell(html)="data">
+                <span v-html="data.value"></span>
+            </template>
+        </b-table>
+    </div>
+    <div class="clear"></div>
+</div>
+</template>
+
+<script>
+export default {
+    data() {
+        return {
+            fields: [{
+                key: 'date',
+                label: 'วันที่'
+            }, {
+                key: 'name',
+                label: 'เรื่อง'
+            }, {
+                key: 'html',
+                label: 'ดาวน์โหลด'
+            }, {
+                key: 'notics',
+                label: 'หมายเหตุ'
+            }],
+            items: [{
+                    date: '19/9/2020',
+                    name: 'เอกสารวิชาการ',
+                    html: '<a download  href="./../static/Featrue.pdf" >Download</a>',
+                    notics: '-'
+                },
+
+            ]
+        }
+    }
+}
+</script>
