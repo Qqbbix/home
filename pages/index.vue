@@ -10,6 +10,10 @@
         </b-carousel-slide>
 
         <b-carousel-slide img-src="~assets/images/nurse banner.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="~assets/images/1.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="~assets/images/2.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="~assets/images/3.jpg"></b-carousel-slide>
+        <b-carousel-slide img-src="~assets/images/4.jpg"></b-carousel-slide>
     </b-carousel>
 
     <section class="position-relative">
