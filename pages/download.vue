@@ -35,7 +35,7 @@ export default {
             items: [{
                     date: '19/9/2020',
                     name: 'เอกสารวิชาการ',
-                    html: '<a download  href="./../static/Featrue.pdf" >Download</a>',
+                    html: '<a download  href="/_nuxt/assets/images/Featrue.pdf" >ดาวน์โหลด</a>',
                     notics: '-'
                 },
 
