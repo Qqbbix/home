@@ -38,7 +38,12 @@ export default {
                     html: '<a download  href="./document/Featrue.pdf" >ดาวน์โหลด</a>',
                     notics: '-'
                 },
-
+                {
+                    date: '21/9/2020',
+                    name: 'ไฟล์ที่สอง',
+                    html: '<a download  href="./document/ชื่อไฟล์ที่สอง.pdf" >ดาวน์โหลด</a>',
+                    notics: 'อันที่สอง'
+                },
             ]
         }
     }
